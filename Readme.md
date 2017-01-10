@@ -5,7 +5,7 @@
 ## how to use
 
 1. install
-1. make project.json as defined in document (wallpaper engine)
+1. make your project.json as defined on [document (wallpaper engine)](http://steamcommunity.com/sharedfiles/filedetails/?id=785994149)
 1. make conditions whatever you want (returns string?)
 1. if you call "GetInitialProperties" it will do that. Don't invoke this twitce or more.
 1. ~~DO NOT OPTIMIZE/MINIMIZE ON EXPORT (not yet work)~~ done.

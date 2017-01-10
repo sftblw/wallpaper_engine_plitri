@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c2addon>
+	<type>plugin</type>
+	
+	<name>WallpaperEngine</name>	
+	<version>0.2</version>
+	<author>Ch.</author>
+	<website>https://github.com/sftblw/wallpaper_engine_plitri/</website>
+	<documentation>https://github.com/sftblw/wallpaper_engine_plitri/</documentation>
+	<description>Wallpaper Engine plugin for Construct 2</description>
+</c2addon>

@@ -8,13 +8,14 @@
 1. make project.json as defined in document (wallpaper engine)
 1. make conditions whatever you want (returns string?)
 1. if you call "GetInitialProperties" it will do that. Don't invoke this twitce or more.
-1. DO NOT OPTIMIZE/MINIMIZE ON EXPORT (not yet work)
+1. ~~DO NOT OPTIMIZE/MINIMIZE ON EXPORT (not yet work)~~ done.
 
 ## features
 
-- [x] On Property Change
-- [x] Get Initial Property (invoke after initialized)
-- [x] `.Value`
+- User-defined property
+  - [x] Condition (trigger): On Property Change
+  - [x] Action             : Get Initial Property (invoke after initialized)
+  - [x] Expression         : `.Value`
 
 ## License
 

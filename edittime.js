@@ -5,7 +5,7 @@ function GetPluginSettings () {
   return {
     'name': 'WallpaperEngine',
     'id': 'WallpaperEnginePlitri',
-    'version': '0.1',
+    'version': '0.2',
     'description': 'unofficial WallpaperEngine HTML5 webpage plugin',
     'author': 'plitri',
     'help url': '(not yet documented)',
@@ -37,25 +37,18 @@ AddAction(1, af_none,
   'actGetInitialProperties');
 
 // ### Expressions
-// - As Project JSON (fn expAsProjectJSON)
-AddExpression(0, ef_return_string, 
-  // wizard list name, wizard category name
-  'As Project JSON', 'Project JSON',
-  // expression function name,  description
-  'AsProjectJSON', 'returns JSON string of projec.json.');
-// - value (fn expValue)
-AddExpression(1, ef_return_string, 
+// - Value (fn expValue)
+AddExpression(1, ef_return_string,
   // wizard list name, wizard category name
   'value', 'value received at OnPropertyChanged',
   // expression function name,  description
-  'Value', 'most recently gotten value');
+  'Value', 'most recently gotten value (when OnPropertyChanged triggered)');
 
 // ### ACE DONE
 ACESDone();
 
 // ## Plugin Properties
 var property_list = [
-  // new cr.Property(ept_integer, 'My property', 77, 'An example property.')
 ];
 
 // ## initializer, etc
@@ -91,7 +84,6 @@ function IDEInstance (instance, type) {
   }
 
   // Plugin-specific variables
-  // this.myValue = 0...
 }
 
 // Called when inserted via Insert Object Dialog for the first time

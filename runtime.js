@@ -138,7 +138,7 @@ cr.plugins_.WallpaperEnginePlitri = function (runtime) {
   // - value (fn Value)
   Exps.prototype.Value = function (ret)	// 'ret' must always be the first parameter - always return the expression's result through it!
   {
-    ret.set_string(valueList[lastPropName]);		// for ef_return_string
+    ret.set_string(valueList[lastPropName].toString());		// for ef_return_string
   };
 
   pluginProto.exps = new Exps();

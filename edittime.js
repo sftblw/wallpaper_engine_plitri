@@ -42,7 +42,7 @@ AddExpression(1, ef_return_string,
   // wizard list name, wizard category name
   'value', 'value received at OnPropertyChanged',
   // expression function name,  description
-  'Value', 'most recently gotten value (when OnPropertyChanged triggered)');
+  'Value', 'most recently gotten value (when OnPropertyChanged triggered) (string type)');
 
 // ### ACE DONE
 ACESDone();
